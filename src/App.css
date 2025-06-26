@@ -1,0 +1,94 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0798f8 0%, #f0f2f5 100%);
+  color: #171818;
+  line-height: 1.8;
+  padding: 20px;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: left;
+  text-align: left;
+  letter-spacing: 0.05em;
+  box-sizing: border-box;
+}
+
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 2rem;
+  color: #f71818;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #eb3bb0;
+  margin-top: 10px;
+}
+
+/* Card Sections */
+.card {
+  background-color: #ffffffa1;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 20px rgba(26, 146, 202, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(52, 156, 43, 0.521);
+}
+
+.card h2 {
+  color: #007acc;
+  margin-bottom: 15px;
+}
+
+/* Project List */
+.projects ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.projects li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.projects li:last-child {
+  border-bottom: none;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #70024c;
+  margin-top: 40px;
+}
